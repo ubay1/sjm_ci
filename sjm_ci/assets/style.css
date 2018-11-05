@@ -1,0 +1,62 @@
+@font-face{
+	font-family:"judul";
+	src:url('BS/fonts/c.ttf');
+}
+
+@media(min-width:992px)
+{	
+	/*menu atas*/
+	.navbar-inverse{background:-webkit-linear-gradient(left,#5EA3E4,#6EC8E1); border:unset;/* box-shadow:0px 1px 3px #eee;*/}
+	.brand-logo{margin-left:20px;}
+	.iconmenu{font-size:20px; color:#fff;}
+	.navbar-inverse .navbar-nav > li > a{color: #fff;}
+	.navbar-inverse .navbar-nav > li:hover{background-color:#5EA3E4;}
+	.row{margin-top:70px;}	
+	/*end menu atas*/
+}
+
+@media(min-width:768px) and (max-width:991px)
+{	
+	/*menu atas*/
+	.navbar-inverse{background:-webkit-linear-gradient(left,#5EA3E4,#6EC8E1); border:unset;/* box-shadow:0px 1px 3px #eee;*/}
+	.iconmenu{font-size:20px; color:#fff;}
+	.navbar-inverse .navbar-nav > li > a{color: #fff;}
+	.navbar-inverse .navbar-nav > li:hover{background-color:#5EA3E4;}
+	.row{margin-top:70px;}	
+	/*end menu atas*/
+
+}
+
+@media(min-width:600px) and (max-width:767px)
+{	
+	/*menu atas*/
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{background:unset;}
+	.navbar-inverse .navbar-toggle{border:unset;}
+	.fa-bars{color:#fff;}
+	
+	.navbar-inverse{background:-webkit-linear-gradient(left,#5EA3E4,#6EC8E1); border:unset;/* box-shadow:0px 1px 3px #eee;*/}
+	.iconmenu{color:#fff;}
+	.navbar-inverse .navbar-nav > li > a{color: #fff;}
+	.navbar-inverse .navbar-nav > li:hover{background-color:#5EA3E4;}
+	.navbar-collapse{padding:unset;}
+	.row{margin-top:70px;}	
+	/*end menu atas*/
+
+}
+
+@media(max-width:599px)
+{
+	/*menu atas*/
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{background:unset;}
+	.navbar-inverse .navbar-toggle{border:unset;}
+	.fa-bars{color:#fff;}
+	
+	.navbar-inverse{background:-webkit-linear-gradient(left,#5EA3E4,#6EC8E1); border:unset;/* box-shadow:0px 1px 3px #eee;*/}
+	.iconmenu{color:#fff;}
+	.navbar-inverse .navbar-nav > li > a{color: #fff;}
+	.navbar-inverse .navbar-nav > li:hover{background-color:#5EA3E4;}
+	.navbar-collapse{padding:unset;}
+	.row{margin-top:70px;}	
+	/*end menu atas*/
+
+}
