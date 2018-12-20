@@ -1,0 +1,68 @@
+	.input_search{
+		position:absolute;
+		top:65px; right:30px;
+	}
+	.form-control{
+		border-radius:0px; box-shadow:0px 2px 4px #B9B9B9;
+	}
+	.form-control:focus{
+		box-shadow:0px 2px 4px #B9B9B9;
+	}
+	#bg_belumorder{
+		display:flex; justify-content:center; align-items:center; flex-direction:column;
+		margin-top:60px ;
+	}
+	#img_empty_order{
+		height:50px;
+	}
+	
+	.bg_pesanan{
+		background:#F7F7F7;
+		border:1px solid rgba(63,136,192,1);
+		box-shadow:0px 4px 5px #C5C3C3;
+		margin-bottom:20px;
+	}
+
+	/*profil pemesan*/
+	.profil_pemesan{
+		display:flex; justify-content: center; flex-direction:column; align-items:center; 
+		margin-bottom:10px; padding-bottom:20px; background:-webkit-radial-gradient(left, #4C9CD8,#3F57C0);
+	}
+	.foto_profil{
+		height:70px; width:70px;
+		border:2px solid #fff; border-radius:100%; 
+		object-fit:cover; margin-top:20px; margin-bottom:10px;
+	}
+	.nama_pemesan{
+		font-size:16px;
+		color:#fff;
+		margin-bottom:5px;
+	}
+	.no_pemesanan{
+		
+		color:#fff; font-size: 14px;
+	}
+	/*end profil pemesan*/
+
+	/*data pesanan*/
+	.isi_pesanan{
+		margin:10px;
+	}
+	.table{border:unset;}
+	.table > tbody > tr > td
+	{
+		border-top:unset;
+		color:#000;
+	}
+	/*end data pesanan*/
+
+	/*button selesai*/
+	.btn_selesai{
+		background:#3F57C0;
+		border-radius:0px;
+		border:unset;
+	}
+	.btn_selesai:hover{
+		background:#3149B0;
+	}
+	/*end button selesai*/

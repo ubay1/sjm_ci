@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title></title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://js.pusher.com/4.3/pusher.min.js"></script>
+</head>
+<body>
+	
+<script type="text/javascript">
+	var pusher = new Pusher('ddffa38d0d39ae7a6f47',{
+		cluster:'ap1'
+	});
+
+	var channel = pusher.subscribe('SJM chat-production');
+
+	channel.bind('my-event', function(data) {
+  		alert('An event was triggered with message: ' + data.message);
+	});
+</script>
+</body>
+</html>

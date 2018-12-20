@@ -1,0 +1,296 @@
+
+
+.table{box-shadow:0px 3px 6px #CFCFCF;}
+
+@font-face{
+	font-family:"judul";
+	src:url('../BS/fonts/c.ttf');
+}
+
+@media(min-width:992px)
+{
+	.profil{ display:grid; grid-template-rows:auto; position:absolute; top:50px;}
+	/*background image*/
+		#bg_foto_profil{
+			grid-row-start:1; grid-column-start:1; grid-column-end:6; 
+		}
+		#img_background{
+			height:250px; width:100%; object-fit:cover; object-position:center;
+		}
+
+	/* end background image*/
+
+	/*foto user*/
+		#fotouser{border:2px solid #fff; object-fit:cover; height:90px; width:90px; border-radius:100%; position:absolute; top:110px; left:20px;}
+		.nama_user{ position:absolute; top:200px; left:30px; max-width:130px; font-size:16px; font-weight:bold; color:#fff; text-shadow:0px 1px 5px #373737;
+		}
+
+	/*end foto user*/
+
+
+	/*isi profil*/
+		.bg-riwayat-pesanan{margin-top: 22em;}
+		#teks-riwayatanda{ 
+			color:#313030; padding-left:5px; border-left:4px solid #5EA3E4;
+			margin-bottom:20px;
+		}
+		.btnrefresh, .btncetak
+		{
+			border:unset; background:transparent;
+		}
+		.btn_refresh_cetak{
+			height:40px;
+		}
+		#bg_riwayat_kerja
+		{
+			margin-bottom:30px;
+			display:flex; justify-content:center; align-items:center;
+
+		}
+		.riwayatkerja
+		{
+			width:50%;
+			margin-right:10px; margin-left:10px;
+		}
+		/*end belum order*/
+	
+	/*end isi profil*/
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+	.profil{ display:grid; grid-template-rows:auto; position:absolute; top:50px;}
+	/*background image*/
+		#bg_foto_profil{
+			grid-row-start:1; grid-column-start:1; grid-column-end:6; 
+		}
+		#img_background{
+			height:200px; width:100%; object-fit:cover; object-position:center;
+		}
+
+	/* end background image*/
+
+	/*foto user*/
+		#fotouser{border:1px solid #fff; object-fit:cover; height:80px; width:80px; border-radius:100%; position:absolute; top:90px; left:20px;}
+		.nama_user{ position:absolute; top:170px; left:30px; max-width:130px; font-size:16px; font-weight:bold; color:#fff; text-shadow:0px 1px 5px #373737;
+		}
+
+	/*end foto user*/
+
+
+	/*isi profil*/
+		.bg-riwayat-pesanan{margin-top: 19em;}
+		#teks-riwayatanda{ 
+			color:#313030; padding-left:5px; border-left:4px solid #5EA3E4;
+			margin-bottom:20px;
+		}
+		.btnrefresh, .btncetak
+		{
+			border:unset; background:transparent;
+		}
+		.btn_refresh_cetak{
+			height:40px;
+		}
+		#bg_riwayat_kerja
+		{
+			margin-bottom:30px;
+			display:flex; justify-content:center; align-items:center;
+
+		}
+		.riwayatkerja
+		{
+			width:50%;
+			margin-right:10px; margin-left:10px;
+		}
+		/*end belum order*/
+	
+	/*end isi profil*/
+}
+
+@media(min-width:600px) and (max-width:767px)
+{
+	.profil{ display:grid; grid-template-rows:auto; position:absolute; top:50px;}
+	/*background image*/
+		#bg_foto_profil{
+			grid-row-start:1; grid-column-start:1; grid-column-end:6; 
+		}
+		#img_background{
+			height:200px; width:100%; object-fit:cover; object-position:center;
+		}
+
+	/* end background image*/
+
+	/*foto user*/
+		#fotouser{border:1px solid #fff; object-fit:cover; height:80px; width:80px; border-radius:100%; position:absolute; top:90px; left:20px;}
+		.nama_user{ position:absolute; top:170px; left:30px; max-width:130px; font-size:16px; font-weight:bold; color:#fff; text-shadow:0px 1px 5px #373737;
+		}
+
+	/*end foto user*/
+
+
+	/*isi profil*/
+		.bg-riwayat-pesanan{margin-top: 19em;}
+		#teks-riwayatanda{ 
+			color:#313030; padding-left:5px; border-left:4px solid #5EA3E4;
+			margin-bottom:20px;
+		}
+		.btnrefresh, .btncetak
+		{
+			border:unset; background:transparent;
+		}
+		.btn_refresh_cetak{
+			height:40px;
+		}
+		#bg_riwayat_kerja
+		{
+			margin-bottom:90px;
+		}
+		.riwayatkerja
+		{
+			width:100%;
+		}
+		/*end belum order*/
+	
+	/*end isi profil*/
+}
+
+@media(min-width:481px) and (max-width:599px)
+{
+	.profil{ display:grid; grid-template-rows:auto; position:absolute; top:50px;}
+	/*background image*/
+		#bg_foto_profil{
+			grid-row-start:1; grid-column-start:1; grid-column-end:6; 
+		}
+		#img_background{
+			height:200px; width:100%; object-fit:cover; object-position:center;
+		}
+
+	/* end background image*/
+
+	/*foto user*/
+		#fotouser{border:1px solid #fff; object-fit:cover; height:80px; width:80px; border-radius:100%; position:absolute; top:90px; left:20px;}
+		.nama_user{ position:absolute; top:170px; left:30px; max-width:130px; font-size:16px; font-weight:bold; color:#fff; text-shadow:0px 1px 5px #373737;
+		}
+
+	/*end foto user*/
+
+
+	/*isi profil*/
+		.bg-riwayat-pesanan{margin-top: 19em;}
+		#teks-riwayatanda{ 
+			color:#313030; padding-left:5px; border-left:4px solid #5EA3E4;
+			margin-bottom:20px;
+		}
+		.btnrefresh, .btncetak
+		{
+			border:unset; background:transparent;
+		}
+		.btn_refresh_cetak{
+			height:40px;
+		}
+		#bg_riwayat_kerja
+		{
+			margin-bottom:90px;
+		}
+		.riwayatkerja
+		{
+			width:100%;
+		}
+		/*end belum order*/
+	
+	/*end isi profil*/
+}
+
+@media(min-width:321px) and (max-width:480px)
+{
+	.profil{ display:grid; grid-template-rows:auto; position:absolute; top:50px;}
+	/*background image*/
+		#bg_foto_profil{
+			grid-row-start:1; grid-column-start:1; grid-column-end:6; 
+		}
+		#img_background{
+			height:200px; width:100%; object-fit:cover; object-position:center;
+		}
+
+	/* end background image*/
+
+	/*foto user*/
+		#fotouser{border:1px solid #fff; object-fit:cover; height:80px; width:80px; border-radius:100%; position:absolute; top:90px; left:20px;}
+		.nama_user{ position:absolute; top:170px; left:30px; max-width:130px; font-size:16px; font-weight:bold; color:#fff; text-shadow:0px 1px 5px #373737;
+		}
+
+	/*end foto user*/
+
+
+	/*isi profil*/
+		.bg-riwayat-pesanan{margin-top: 19em;}
+		#teks-riwayatanda{ 
+			color:#313030; padding-left:5px; border-left:4px solid #5EA3E4;
+			margin-bottom:20px;
+		}
+		.btnrefresh, .btncetak
+		{
+			border:unset; background:transparent;
+		}
+		.btn_refresh_cetak{
+			height:40px;
+		}
+		#bg_riwayat_kerja
+		{
+			margin-bottom:90px;
+		}
+		.riwayatkerja
+		{
+			width:100%;
+		}
+		/*end belum order*/
+	
+	/*end isi profil*/
+}
+
+@media(max-width:320px)
+{
+	.profil{ display:grid; grid-template-rows:auto; position:absolute; top:50px;}
+	/*background image*/
+		#bg_foto_profil{
+			grid-row-start:1; grid-column-start:1; grid-column-end:6; 
+		}
+		#img_background{
+			height:200px; width:100%; object-fit:cover; object-position:center;
+		}
+
+	/* end background image*/
+
+	/*foto user*/
+		#fotouser{border:1px solid #fff; object-fit:cover; height:80px; width:80px; border-radius:100%; position:absolute; top:90px; left:20px;}
+		.nama_user{ position:absolute; top:170px; left:30px; max-width:130px; font-size:16px; font-weight:bold; color:#fff; text-shadow:0px 1px 5px #373737;
+		}
+
+	/*end foto user*/
+
+
+	/*isi profil*/
+		.bg-riwayat-pesanan{margin-top: 19em;}
+		#teks-riwayatanda{ 
+			color:#313030; padding-left:5px; border-left:4px solid #5EA3E4;
+			margin-bottom:20px;
+		}
+		.btnrefresh, .btncetak
+		{
+			border:unset; background:transparent;
+		}
+		.btn_refresh_cetak{
+			height:40px;
+		}
+		#bg_riwayat_kerja
+		{
+			margin-bottom:90px;
+		}
+		.riwayatkerja
+		{
+			width:100%;
+		}
+		/*end belum order*/
+	
+	/*end isi profil*/
+}

@@ -1,0 +1,147 @@
+@font-face{
+	font-family:"judul";
+	src:url('../BS/fonts/c.ttf');
+}
+
+.btn-cancel{border-radius:0; background:-webkit-linear-gradient(left,#5EA3E4,#6EC8E1); color:#fff; font-size:17px; border:unset;}
+
+@media(min-width:992px)
+{	
+	.mdi-cash-usd{
+		position:absolute; top:200px; left:30px; color:#fff;
+		font-size:30px;
+	}
+	#teks_biaya_servis{
+		position:absolute; top:210px; left:70px; color:#fff;
+		font-size:16px;  border-bottom:1px dotted #ECE912;
+	}
+	#teks_biaya_servis:hover{
+		text-decoration:none;
+	}
+	.servis{display:grid; grid-template-rows:270px; position:absolute; top:50px;}
+	.bg_img_servis{grid-row-start:1; grid-column-start:1; grid-column-end:6;}
+	.img_servis{
+		height: 250px; width:100%; object-fit:cover; object-position:center; box-shadow:0px 4px 4px #CCCCCC;
+	}
+	.bg_form_input_servis
+	{
+		grid-row-start:2; grid-column-start:1; grid-column-end:6; margin-bottom:110px; margin-right:10px; margin-left:10px;
+	}	
+	.pembungkus-forminput{ width:50%; padding:10px; margin-bottom:10px; float:left; }
+	.clear{clear:both;}
+	#input_kendala{width:100%;}
+	.teks-forminput{font-weight:bold; margin-bottom:5px; font-size:17px;}
+	.forms{box-shadow:0px 3px 10px #DBD9D9; border-radius:0; height:40px; font-size:17px; }
+
+	.pembungkus-btn{display:block; width:100%;  padding:10px; height:60px;}
+	.btn-submit, .btn-reset{border-radius:0;  font-size:17px; margin-bottom:10px;}
+	.btn-block + .btn-block{margin-top:unset;}
+	
+	/*end isi ccontente*/
+}
+
+@media(min-width:768px) and (max-width:991px)
+{	
+	
+	.mdi-cash-usd{
+		position:absolute; top:150px; left:20px; color:#fff;
+		font-size:30px;
+	}
+	#teks_biaya_servis{
+		position:absolute; top:160px; left:60px; color:#fff;
+		font-size:16px; border-bottom:1px dotted #ECE912;
+	}
+	#teks_biaya_servis:hover{
+		text-decoration:none;
+	}
+	.servis{display:grid; grid-template-rows:220px ; position:absolute; top:50px;}
+	.bg_img_servis{grid-row-start:1; grid-column-start:1; grid-column-end:6;}
+	.img_servis{
+		height: 200px; width:100%; object-fit:cover; object-position:center;  box-shadow:0px 4px 4px #CCCCCC;
+	}
+	.bg_form_input_servis
+	{
+		grid-row-start:2; grid-column-start:1; grid-column-end:6; margin-bottom:80px; margin-right:10px; margin-left:10px;
+	}	
+	.pembungkus-forminput{ width:50%; padding:10px; margin-bottom:10px; float:left; }
+	.clear{clear:both;}
+	#input_kendala{width:100%;}
+	.teks-forminput{font-weight:bold; margin-bottom:5px; font-size:17px;}
+	.forms{box-shadow:0px 3px 10px #DBD9D9; border-radius:0; height:40px; font-size:17px; }
+
+	.pembungkus-btn{display:block; width:100%;  padding:10px; height:60px;}
+	.btn-submit, .btn-reset{border-radius:0;  font-size:17px; margin-bottom:10px;}
+	.btn-block + .btn-block{margin-top:unset;}
+	
+	/*end isi ccontente*/
+
+}
+
+@media(min-width:600px) and (max-width:767px)
+{	
+
+	.mdi-cash-usd{
+		position:absolute; top:150px; left:20px; color:#fff;
+		font-size:30px;
+	}
+	#teks_biaya_servis{
+		position:absolute; top:160px; left:60px; color:#fff;
+		font-size:16px; border-bottom:1px dotted #ECE912;
+	}
+	#teks_biaya_servis:hover{
+		text-decoration:none;
+	}
+	.servis{display:grid; grid-template-rows:220px; position:absolute; top:50px;}
+	.bg_img_servis{grid-row-start:1; grid-column-start:1; grid-column-end:6;}
+	.img_servis{
+		height: 200px; width:100%; object-fit:cover; object-position:center;  box-shadow:0px 4px 4px #CCCCCC;
+	}
+	.bg_form_input_servis
+	{
+		grid-row-start:2; grid-column-start:1; grid-column-end:6; margin-bottom:120px; margin-right:10px; margin-left:10px;
+	}	
+	.pembungkus-forminput{ width:100%; padding:10px; margin-bottom:10px;}
+	.teks-forminput{font-weight:bold; margin-bottom:5px; font-size:17px;}
+	.forms{box-shadow:0px 3px 10px #DBD9D9; border-radius:0; height:40px; font-size:17px; }
+
+	.pembungkus-btn{display:block; width:100%;  padding:10px; height:60px;}
+	.btn-submit, .btn-reset{border-radius:0;  font-size:17px; margin-bottom:10px;}
+	.btn-block + .btn-block{margin-top:unset;}
+	
+	/*end isi ccontente*/
+	
+	
+}
+
+@media(max-width:599px)
+{	
+	.mdi-cash-usd{
+		position:absolute; top:150px; left:20px; color:#fff;
+		font-size:30px;
+	}
+	#teks_biaya_servis{
+		position:absolute; top:160px; left:60px; color:#fff;
+		font-size:16px; border-bottom:1px dotted #ECE912;
+	}
+	#teks_biaya_servis:hover{
+		text-decoration:none;
+	}
+	.servis{display:grid; grid-template-rows:220px; position:absolute; top:50px;}
+	.bg_img_servis{grid-row-start:1; grid-column-start:1; grid-column-end:6;}
+	.img_servis{
+		height: 200px; width:100%; object-fit:cover; object-position:center;  box-shadow:0px 4px 4px #CCCCCC;
+	}
+	.bg_form_input_servis
+	{
+		grid-row-start:2; grid-column-start:1; grid-column-end:6; margin-bottom:120px; margin-right:10px; margin-left:10px;
+	}	
+	.pembungkus-forminput{ width:100%; padding:10px; margin-bottom:10px;}
+	.teks-forminput{font-weight:bold; margin-bottom:5px; font-size:17px;}
+	.forms{box-shadow:0px 3px 10px #DBD9D9; border-radius:0; height:40px; font-size:17px; }
+
+	.pembungkus-btn{display:block; width:100%;  padding:10px; height:60px;}
+	.btn-submit, .btn-reset{border-radius:0;  font-size:17px; margin-bottom:10px;}
+	.btn-block + .btn-block{margin-top:unset;}
+	
+	/*end isi ccontente*/
+}

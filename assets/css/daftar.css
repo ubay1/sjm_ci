@@ -1,0 +1,193 @@
+
+/*body{ background:-webkit-linear-gradient(top,#4c87ff,#7C7FEE); background-position:center; 
+	background-repeat:repeat-x; background-size:cover; background-attachment:fixed;}*/
+html{background:#5682DD;}
+body{background:transparent;}
+
+@media (min-width:992px)
+{
+	.main{
+		display:flex; justify-content:center;  align-items:center height:100%;}
+	#fieldset{ 
+		width:50%; height:auto; 
+		margin:30px auto; 
+		background:-webkit-linear-gradient(top,#4c87ff,#7C7FEE); 
+		box-shadow:5px 5px 0px rgba(0,0,0, .5);
+		border-radius:5px;
+	}
+	
+	/*title*/
+	.sjm{color:#fff; font-size:30px; background:#4074CB; 
+		padding:10px; box-shadow:0px 5px 0px rgba(0,0,0, .5);
+	}
+
+	/*form input*/
+	#form_input_daftar{
+		margin-left: 20px; margin-right: 20px; margin-bottom:30px;
+	}
+	.form-control{ margin-bottom:20px; border-radius:0px;
+		box-shadow:0px 3px 0px rgba(0,0,0, .5);
+	}
+	.form-control:focus
+	{
+		box-shadow:0px 3px 0px rgba(0,0,0, .5);
+		
+	}
+	.txt{color:#fff;} 
+	
+	.btn-daftar
+	{
+		border-radius:0px;
+		background:#164FC1;
+		color:#fff;
+		box-shadow:0px 2px 0px #fff;
+	}
+	.btn-daftar:hover
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+	#link-daftar{color:#fff;}
+	/*end form input*/
+}
+@media (min-width:768px) and (max-width:991px)
+{
+	.main{
+		display:flex; justify-content:center;  align-items:center height:100%;}
+	#fieldset{ 
+		width:80%; height:auto; 
+		margin:30px auto; 
+		background:-webkit-linear-gradient(top,#4c87ff,#7C7FEE); 
+		box-shadow:5px 5px 0px rgba(0,0,0, .5);
+		border-radius:5px;
+	}
+	
+	/*title*/
+	.sjm{color:#fff; font-size:30px; background:#4074CB; 
+		padding:10px; box-shadow:0px 5px 0px rgba(0,0,0, .5);
+	}
+
+	/*form input*/
+	#form_input_daftar{
+		margin-left: 20px; margin-right: 20px; margin-bottom:30px;
+	}
+	.form-control{ margin-bottom:20px; border-radius:0px;
+		box-shadow:0px 3px 0px rgba(0,0,0, .5);
+	}
+	.form-control:focus
+	{
+		box-shadow:0px 3px 0px rgba(0,0,0, .5);
+		
+	}
+	.txt{color:#fff;} 
+	
+	.btn-daftar
+	{
+		border-radius:0px;
+		background:#164FC1;
+		color:#fff;
+		box-shadow:0px 2px 0px #fff;
+	}
+	.btn-daftar:hover
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+	#link-daftar{color:#fff;}
+	/*end form input*/
+}
+
+@media (min-width:600px) and (max-width:767px)
+{
+	.main{
+		display:flex; justify-content:center;  align-items:center height:100%;}
+	#fieldset{ 
+		width:90%; height:auto; 
+		margin:30px auto; 
+		background:-webkit-linear-gradient(top,#4c87ff,#7C7FEE); 
+		box-shadow:5px 5px 0px rgba(0,0,0, .5);
+		border-radius:5px;
+	}
+	
+	/*title*/
+	.sjm{color:#fff; font-size:30px; background:#4074CB; 
+		padding:10px; box-shadow:0px 5px 0px rgba(0,0,0, .5);
+	}
+
+	/*form input*/
+	#form_input_daftar{
+		margin-left: 20px; margin-right: 20px; margin-bottom:30px;
+	}
+	.form-control{ margin-bottom:20px; border-radius:0px;
+		box-shadow:0px 3px 0px rgba(0,0,0, .5);
+	}
+	.form-control:focus
+	{
+		box-shadow:0px 3px 0px rgba(0,0,0, .5);
+		
+	}
+	.txt{color:#fff;} 
+	
+	.btn-daftar
+	{
+		border-radius:0px;
+		background:#164FC1;
+		color:#fff;
+		box-shadow:0px 2px 0px #fff;
+	}
+	.btn-daftar:hover
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+	#link-daftar{color:#fff;}
+	/*end form input*/
+}
+
+@media (max-width:599px)
+{	
+
+	.main{
+		display:flex; justify-content:center;  align-items:center height:100%; margin:5px;}
+	#fieldset{ 
+		width:90%; height:auto; 
+		margin:30px auto; 
+		background:-webkit-linear-gradient(top,#4c87ff,#7C7FEE); 
+		box-shadow:5px 5px 0px rgba(0,0,0, .5);
+		border-radius:5px;
+	}
+	
+	/*title*/
+	.sjm{color:#fff; font-size:30px; background:#4074CB; 
+		padding:10px; box-shadow:0px 5px 0px rgba(0,0,0, .5);
+	}
+
+	/*form input*/
+	#form_input_daftar{
+		margin-left: 20px; margin-right: 20px; margin-bottom:30px;
+	}
+	.form-control{ margin-bottom:20px; border-radius:0px;
+		box-shadow:0px 3px 0px rgba(0,0,0, .5);
+	}
+	.form-control:focus
+	{
+		box-shadow:0px 3px 0px rgba(0,0,0, .5);
+		
+	}
+	.txt{color:#fff;} 
+	
+	.btn-daftar
+	{
+		border-radius:0px;
+		background:#164FC1;
+		color:#fff;
+		box-shadow:0px 2px 0px #fff;
+	}
+	.btn-daftar:hover
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+	#link-daftar{color:#fff;}
+	/*end form input*/
+}

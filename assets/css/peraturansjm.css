@@ -1,0 +1,83 @@
+@font-face{
+	font-family:"judul";
+	src:url('<?= base_url()?>assets/BS/fonts/c.ttf');
+}
+
+.btn-cancel{border-radius:0; background:-webkit-linear-gradient(left,#5EA3E4,#6EC8E1); color:#fff; font-size:17px; border:unset;}
+
+@media(min-width:992px)
+{	
+	.jumbotron{position:absolute; top:50px; width:100%; background:-webkit-linear-gradient(left ,#A2C9EF,#F1F9FB,#B9EAF4); color:#fff; text-shadow:0px 3px 6px #696969;}
+	.mdi-settings{text-shadow:0px 0px 10px #696969;}
+	.txtjumbotron{font-family:"judul"; }
+	.text-menu{position:absolute; top:270px; font-size:17px;}
+
+	.bg_form_input_servis{position:absolute; top:245px; width:100%; padding:20px;}
+	.lebar-form{ margin-bottom:30px; display:flex; justify-content:space-around;}
+	.pembungkus-forminput{display:inline; width:100%; padding:10px;}
+	.teks-forminput{font-weight:bold; margin-bottom:10px; font-size:17px;}
+	.forms{box-shadow:0px 3px 10px #DBD9D9; border-radius:0; height:40px; font-size:17px; }
+
+	.pembungkus-btn{display:flex; width:100%;  padding:10px; height:60px;}
+	.btn-submit, .btn-reset{border-radius:0;  font-size:17px;}
+	.btn-block + .btn-block{margin-top:unset;}
+}
+
+@media(min-width:768px) and (max-width:991px)
+{	
+	.jumbotron{position:absolute; top:50px; width:100%; background:-webkit-linear-gradient(left ,#A2C9EF,#F1F9FB,#B9EAF4); color:#fff; text-shadow:0px 3px 6px #696969;}
+	.mdi-settings{text-shadow:0px 0px 10px #696969;}
+	.txtjumbotron{font-family:"judul"; }
+	.text-menu{position:absolute; top:270px; font-size:17px;}
+
+	.bg_form_input_servis{position:absolute; top:245px; width:100%; padding:20px;}	
+	.lebar-form{ margin-bottom:30px; display:flex; justify-content:space-around;}
+	.pembungkus-forminput{display:inline; width:100%; padding:10px;}
+	.teks-forminput{font-weight:bold; margin-bottom:10px; font-size:17px;}
+	.forms{box-shadow:0px 3px 10px #DBD9D9; border-radius:0; height:40px; font-size:17px; }
+
+	.pembungkus-btn{display:flex; width:100%;  padding:10px; height:60px;}
+	.btn-submit, .btn-reset{border-radius:0;  font-size:17px;}
+	.btn-block + .btn-block{margin-top:unset;}
+}
+
+@media(min-width:600px) and (max-width:767px)
+{	
+	.jumbotron{position:absolute; top:50px; width:100%; background:-webkit-linear-gradient(left ,#A2C9EF,#F1F9FB,#B9EAF4); color:#fff; text-shadow:0px 2px 5px #696969; height:150px;}
+	.mdi-settings{text-shadow:0px 0px 10px #696969;}
+	.txtjumbotron{font-family:"judul"; }
+	.text-menu{position:absolute; top:210px; font-size:17px;}
+	
+	.bg_form_input_servis{position:absolute; top:200px; width:100%; padding:20px; margin-bottom:100px;}	
+	.lebar-form{padding-bottom:0;}
+	.pembungkus-forminput{ width:100%; padding:10px; margin-bottom:10px;}
+	.teks-forminput{font-weight:bold; margin-bottom:5px; font-size:17px;}
+	.forms{box-shadow:0px 3px 10px #DBD9D9; border-radius:0; height:40px; font-size:17px; }
+
+	.pembungkus-btn{display:block; width:100%;  padding:10px; height:60px;}
+	.btn-submit, .btn-reset{border-radius:0;  font-size:17px; margin-bottom:10px;}
+	.btn-block + .btn-block{margin-top:unset;}
+	
+	
+}
+
+@media(max-width:599px)
+{
+	.jumbotron{position:absolute; top:50px; width:100%; background:-webkit-linear-gradient(left ,#A2C9EF,#F1F9FB,#B9EAF4); color:#fff; text-shadow:0px 2px 5px #696969; height:150px;}
+	.mdi-settings{text-shadow:0px 0px 10px #696969;}
+	.txtjumbotron{font-family:"judul"; }
+	.text-menu{position:absolute; top:210px; font-size:17px; margin-bottom:50px;}
+	.panel-heading{cursor:pointer;}
+	
+	.bg_form_input_servis{position:absolute; top:200px; width:100%; padding:20px; margin-bottom:100px;}	
+	.lebar-form{padding-bottom:0;}
+	.pembungkus-forminput{ width:100%; padding:10px; margin-bottom:10px;}
+	.teks-forminput{font-weight:bold; margin-bottom:5px; font-size:17px;}
+	.forms{box-shadow:0px 3px 10px #DBD9D9; border-radius:0; height:40px; font-size:17px; }
+
+	.pembungkus-btn{display:block; width:100%;  padding:10px; height:60px;}
+	.btn-submit, .btn-reset{border-radius:0;  font-size:17px; margin-bottom:10px;}
+	.btn-block + .btn-block{margin-top:unset;}
+	
+	/*end isi ccontente*/
+}

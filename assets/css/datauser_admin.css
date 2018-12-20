@@ -1,0 +1,33 @@
+
+#img_profiluser{height:50px; width:50px; border-radius:100%; box-shadow:0px 2px 4px #6C6A6A;}
+
+@media(min-width:992px)
+{	
+	/*menu atas*/
+	.jarak-table{margin-top:80px;}
+	/*end menu atas*/
+}
+
+@media(min-width:768px) and (max-width:991px)
+{	
+	/*menu atas*/
+	.jarak-table{margin-top:80px;}
+	/*end menu atas*/
+
+}
+
+@media(min-width:600px) and (max-width:767px)
+{	
+	/*menu atas*/
+	.jarak-table{margin-top:80px;}
+	/*end menu atas*/
+
+}
+
+@media(max-width:599px)
+{
+	/*menu atas*/
+	.jarak-table{margin-top:80px;}
+	/*end menu atas*/
+
+}

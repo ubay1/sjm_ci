@@ -1,0 +1,35 @@
+#bgrefresh{margin-top:60px;}
+@media(min-width:992px)
+{	
+	/*menu atas*/
+	.jarak-table{margin-top:10px; margin-bottom:90px;}
+	#tmp_kendala{text-align:justify;}
+	/*end menu atas*/
+}
+
+@media(min-width:768px) and (max-width:991px)
+{	
+	/*menu atas*/
+	.jarak-table{margin-top:10px; margin-bottom:90px;}
+	#tmp_kendala{text-align:justify;}
+	/*end menu atas*/
+
+}
+
+@media(min-width:600px) and (max-width:767px)
+{	
+	/*menu atas*/
+	.jarak-table{margin-top:10px; margin-bottom:90px;}
+	#tmp_kendala{text-align:justify;}
+	/*end menu atas*/
+
+}
+
+@media(max-width:599px)
+{
+	/*menu atas*/
+	.jarak-table{margin-top:10px; margin-bottom:90px;}
+	#tmp_kendala{text-align:justify;}
+	/*end menu atas*/
+
+}
